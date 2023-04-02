@@ -2,8 +2,12 @@
 Duke Ignite '23 Project
 <hr/>
 
-# How to setup
+# TODO
+<li> Implement Chat Bot functionality using gpt
+<li> Setup venv and change setup to use venv
+<li> Python 3.8.16 but anything 3.7.1 up to but not including 3.10 should be fine. (3.10 probably works but not for me for some odd reason... currently investigating)
 
+# How to setup
 <li> Insall dotenv python package `pip install python-dotenv`
 <li> Put your api token into a `.env` file as `TOKEN='aijraioni1n31'` (example)
 <li> Put your GPT token into the `.env` file as well as `GPT-TOKEN='sk-longrandomstuff` (example btw)
