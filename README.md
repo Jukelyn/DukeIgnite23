@@ -2,9 +2,9 @@
 Duke Ignite '23 Project
 <hr/>
 
-# TODO
-<li> Implement front end functionality
-<li> Feed data to the gpt model to provide responses
+# Figma
+[Figma](https://www.figma.com/proto/cHN8oIraDw9OTeEUBZiWrY/Classy?page-id=0%3A1&node-id=1-2&viewport=-4%2C303%2C0.36&scaling=scale-down&starting-point-node-id=1%3A2&show-proto-sidebar=1) <br/>
+[Figma flows](https://www.figma.com/file/cHN8oIraDw9OTeEUBZiWrY/Classy?node-id=0-1&t=Yam4MUVYKwN4Gemq-0)
 
 # How to setup
 <li> Insall dotenv python package `pip install python-dotenv`
