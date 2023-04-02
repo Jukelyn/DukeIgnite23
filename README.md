@@ -4,8 +4,7 @@ Duke Ignite '23 Project
 
 # TODO
 <li> Implement front end functionality
-<li> Setup venv and change setup to use venv
-<li> Python 3.8.16 but anything 3.7.1 up to but not including 3.10 should be fine. (3.10 probably works but not for me for some odd reason... currently investigating)
+<li> Feed data to the gpt model to provide responses
 
 # How to setup
 <li> Insall dotenv python package `pip install python-dotenv`
