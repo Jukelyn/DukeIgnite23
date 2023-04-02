@@ -30,6 +30,7 @@ message_history = [
 while (True):
     # Get user input
     user_input = input("Enter query: ")
+    
     if user_input == "":
         continue
     if user_input == "exit":
