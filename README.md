@@ -3,8 +3,8 @@ Duke Ignite '23 Project
 <hr/>
 
 # Figma
-[Figma](https://www.figma.com/proto/cHN8oIraDw9OTeEUBZiWrY/Classy?page-id=0%3A1&node-id=1-2&viewport=-4%2C303%2C0.36&scaling=scale-down&starting-point-node-id=1%3A2&show-proto-sidebar=1) <br>
-[Figma flows](https://www.figma.com/file/cHN8oIraDw9OTeEUBZiWrY/Classy?node-id=0-1&t=Yam4MUVYKwN4Gemq-0)
+<a href="https://www.figma.com/proto/cHN8oIraDw9OTeEUBZiWrY/Classy?page-id=0%3A1&node-id=1-2&viewport=-4%2C303%2C0.36&scaling=scale-down&starting-point-node-id=1%3A2&show-proto-sidebar=1">Figma</a> <br>
+<a href="https://www.figma.com/file/cHN8oIraDw9OTeEUBZiWrY/Classy?node-id=0-1&t=Yam4MUVYKwN4Gemq-0">Figma flows</a> <br>
 <hr/>
 
 # How to setup
