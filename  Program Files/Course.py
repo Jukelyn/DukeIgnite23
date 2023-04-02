@@ -11,3 +11,25 @@ class Course:
         self.crse_id = crse_id
         self.desc = desc
         self.offering = offering
+
+    def __str__(self):
+        return f"{self.subject_line} | {self.title} | {self.crse_id} | {self.desc} | {self.offering}"
+    
+    def valid(self):
+        if self.title is None:
+            return False
+        
+        if self.subject_line is None:
+            return False
+        
+        if self.offering is None:
+            return False
+        
+        if self.desc is None:
+            return False
+        
+        if self.crse_id is None:
+            return False
+        
+        return True
+    

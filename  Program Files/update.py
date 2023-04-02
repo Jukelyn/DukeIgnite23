@@ -8,12 +8,17 @@ import os, sys
 from dotenv import load_dotenv # Access things from .env file
 
 import requests # API interactions
-import Course # Used to create course objects
 
 load_dotenv()
 api_token = os.getenv('TOKEN')
 base_url = "https://streamer.oit.duke.edu/curriculum/"
 data_path = "../"
+
+val = input("Are you sure you want to run this? (y/n)\n")
+if (val != "Y") and (val != "y"):
+    sys.exit("Goodbye.")
+
+#sys.exit("stop") # I don't ACTUALLY want to run, just making sure my check works
 
 if os.path.exists("Courses.txt"):
     os.remove("Courses.txt")
@@ -55,7 +60,6 @@ def getCourseList(code):
     raw = requests.get(f"{base_url}courses/subject/{code}?access_token={api_token}")
     return raw.json() # Response to JSON
 
-list_course_objs = []
 for code in list_subject_codes:
     list_courses = getCourseList(code)
     
@@ -107,8 +111,3 @@ for code in list_subject_codes:
         
         with open(f"{data_path}data/Courses.txt", "a") as txtFile: # Append
             txtFile.write(f"{subjectLine} | {title} | {crseId} | {courseDesc} | {offering}\n") # Format
-
-        currCourse = Course.Course(subjectLine, title, crseId, courseDesc, offering) # Current course
-        list_course_objs.append(currCourse) # Add to list
-
-# print(len(list_course_objs))
